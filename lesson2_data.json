@@ -1,0 +1,41 @@
+{
+  "lesson_number": 2,
+  "lesson_title": "ʔəɬtélŋəxʷ - People",
+  "vocab": [
+    {
+      "id": "v1",
+      "lekwungen": "qeq",
+      "english": "baby",
+      "image_url": "https://ilfts.org/media/images/vocab/image117.jpg",
+      "audio_url": "https://ilfts.org/media/audio/vocab/baby.mp3"
+    },
+    {
+      "id": "v2",
+      "lekwungen": "swə́y̓qeʔ",
+      "english": "man",
+      "image_url": "https://ilfts.org/media/images/vocab/image131.jpg",
+      "audio_url": "https://ilfts.org/media/audio/vocab/baby.mp3"
+    },
+    {
+      "id": "v3",
+      "lekwungen": "swiw̓ləs",
+      "english": "teenage boy",
+      "image_url": "https://ilfts.org/media/images/vocab/image123.jpg",
+      "audio_url": "https://ilfts.org/media/audio/vocab/youth_male.mp3"
+    },
+    {
+      "id": "v4",
+      "lekwungen": "sɬéniʔ",
+      "english": "woman",
+      "image_url": "https://ilfts.org/media/images/vocab/image133.jpg",
+      "audio_url": "https://ilfts.org/media/audio/vocab/woman.mp3"
+    },
+    {
+      "id": "v5",
+      "lekwungen": "q̓eʔŋiʔ",
+      "english": "teenage girl",
+      "image_url": "https://ilfts.org/media/images/vocab/image127.jpg",
+      "audio_url": "https://ilfts.org/media/audio/vocab/little_girl.mp3"
+    }
+  ]
+}
