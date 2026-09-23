@@ -1,0 +1,453 @@
+{
+  "scoreShow": "Check",
+  "submit": "Submit",
+  "tryAgain": "Retry",
+  "scoreExplanation": "Correct answers give +1 point. Incorrect answers give -1 point. The lowest possible score is 0.",
+  "question": {
+    "settings": {
+      "size": {
+        "width": 800,
+        "height": 400
+      }
+    },
+    "task": {
+      "elements": [
+        {
+          "x": 5.625,
+          "y": 5,
+          "width": 4.2,
+          "height": 1.375,
+          "dropZones": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "type": {
+            "library": "H5P.AdvancedText 1.1",
+            "params": {
+              "text": "<p>swiw̓ləs</p>\n"
+            },
+            "subContentId": "4ea94445-6796-4a8e-8eaa-4b1893c6fbe5",
+            "metadata": {
+              "contentType": "Text",
+              "license": "U",
+              "title": "Untitled Text",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "backgroundOpacity": 100,
+          "multiple": false
+        },
+        {
+          "x": 25.625,
+          "y": 5,
+          "width": 4.2,
+          "height": 1.375,
+          "dropZones": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "type": {
+            "library": "H5P.AdvancedText 1.1",
+            "params": {
+              "text": "<p>swə́y̓qeʔ</p>\n"
+            },
+            "subContentId": "cfa94cbb-1800-485d-a007-67d373f89fa4",
+            "metadata": {
+              "contentType": "Text",
+              "license": "U",
+              "title": "Untitled Text",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "backgroundOpacity": 100,
+          "multiple": false
+        },
+        {
+          "x": 45.625,
+          "y": 5,
+          "width": 4.2,
+          "height": 1.375,
+          "dropZones": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "type": {
+            "library": "H5P.AdvancedText 1.1",
+            "params": {
+              "text": "<p>qeq</p>\n"
+            },
+            "subContentId": "68412354-44d9-49dc-8f1a-ad070116b3a5",
+            "metadata": {
+              "contentType": "Text",
+              "license": "U",
+              "title": "Untitled Text",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "backgroundOpacity": 100,
+          "multiple": false
+        },
+        {
+          "x": 65.625,
+          "y": 5,
+          "width": 4.2,
+          "height": 1.375,
+          "dropZones": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "type": {
+            "library": "H5P.AdvancedText 1.1",
+            "params": {
+              "text": "<p>q̓eʔŋiʔ</p>\n"
+            },
+            "subContentId": "8abad41b-9a41-499f-8f92-95436116352f",
+            "metadata": {
+              "contentType": "Text",
+              "license": "U",
+              "title": "Untitled Text",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "backgroundOpacity": 100,
+          "multiple": false
+        },
+        {
+          "x": 85.625,
+          "y": 5,
+          "width": 4.2,
+          "height": 1.375,
+          "dropZones": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "type": {
+            "library": "H5P.AdvancedText 1.1",
+            "params": {
+              "text": "<p>sɬéniʔ</p>\n"
+            },
+            "subContentId": "15a73bb7-38b8-4c08-bf9c-713c943e16ad",
+            "metadata": {
+              "contentType": "Text",
+              "license": "U",
+              "title": "Untitled Text",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "backgroundOpacity": 100,
+          "multiple": false
+        },
+        {
+          "x": 5.625,
+          "y": 65,
+          "width": 8.75,
+          "height": 7.25,
+          "dropZones": [],
+          "type": {
+            "library": "H5P.Image 1.1",
+            "params": {
+              "decorative": false,
+              "contentName": "Image",
+              "expandImage": "Expand",
+              "minimizeImage": "Minimize",
+              "alt": "baby",
+              "file": {
+                "path": "images/v1.jpg",
+                "mime": "image/jpeg",
+                "copyright": {
+                  "license": "U"
+                }
+              }
+            },
+            "subContentId": "43bdc4ab-2936-4ce7-82b7-76d2f353bd69",
+            "metadata": {
+              "contentType": "Image",
+              "license": "U",
+              "title": "Untitled Image",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "backgroundOpacity": 100,
+          "multiple": false
+        },
+        {
+          "x": 25.625,
+          "y": 65,
+          "width": 8.75,
+          "height": 7.25,
+          "dropZones": [],
+          "type": {
+            "library": "H5P.Image 1.1",
+            "params": {
+              "decorative": false,
+              "contentName": "Image",
+              "expandImage": "Expand",
+              "minimizeImage": "Minimize",
+              "alt": "man",
+              "file": {
+                "path": "images/v2.jpg",
+                "mime": "image/jpeg",
+                "copyright": {
+                  "license": "U"
+                }
+              }
+            },
+            "subContentId": "b8c4ad33-935f-4bf3-ac8d-7334dafad086",
+            "metadata": {
+              "contentType": "Image",
+              "license": "U",
+              "title": "Untitled Image",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "backgroundOpacity": 100,
+          "multiple": false
+        },
+        {
+          "x": 45.625,
+          "y": 65,
+          "width": 8.75,
+          "height": 7.25,
+          "dropZones": [],
+          "type": {
+            "library": "H5P.Image 1.1",
+            "params": {
+              "decorative": false,
+              "contentName": "Image",
+              "expandImage": "Expand",
+              "minimizeImage": "Minimize",
+              "alt": "woman",
+              "file": {
+                "path": "images/v4.jpg",
+                "mime": "image/jpeg",
+                "copyright": {
+                  "license": "U"
+                }
+              }
+            },
+            "subContentId": "734bd44e-e81b-4945-bd30-13669a744508",
+            "metadata": {
+              "contentType": "Image",
+              "license": "U",
+              "title": "Untitled Image",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "backgroundOpacity": 100,
+          "multiple": false
+        },
+        {
+          "x": 65.625,
+          "y": 65,
+          "width": 8.75,
+          "height": 7.25,
+          "dropZones": [],
+          "type": {
+            "library": "H5P.Image 1.1",
+            "params": {
+              "decorative": false,
+              "contentName": "Image",
+              "expandImage": "Expand",
+              "minimizeImage": "Minimize",
+              "alt": "teenage girl",
+              "file": {
+                "path": "images/v5.jpg",
+                "mime": "image/jpeg",
+                "copyright": {
+                  "license": "U"
+                }
+              }
+            },
+            "subContentId": "0ef83258-22a7-47af-a207-e06356ac0bc1",
+            "metadata": {
+              "contentType": "Image",
+              "license": "U",
+              "title": "Untitled Image",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "backgroundOpacity": 100,
+          "multiple": false
+        },
+        {
+          "x": 85.625,
+          "y": 65,
+          "width": 8.75,
+          "height": 7.25,
+          "dropZones": [],
+          "type": {
+            "library": "H5P.Image 1.1",
+            "params": {
+              "decorative": false,
+              "contentName": "Image",
+              "expandImage": "Expand",
+              "minimizeImage": "Minimize",
+              "alt": "teenage boy",
+              "file": {
+                "path": "images/v3.jpg",
+                "mime": "image/jpeg",
+                "copyright": {
+                  "license": "U"
+                }
+              }
+            },
+            "subContentId": "048a7478-61ce-4c42-a90f-a324176df4f0",
+            "metadata": {
+              "contentType": "Image",
+              "license": "U",
+              "title": "Untitled Image",
+              "authors": [],
+              "changes": []
+            }
+          },
+          "backgroundOpacity": 100,
+          "multiple": false
+        }
+      ],
+      "dropZones": [
+        {
+          "x": 5.625,
+          "y": 62.5,
+          "width": 8.75,
+          "height": 8.75,
+          "correctElements": [
+            "2"
+          ],
+          "showLabel": false,
+          "backgroundOpacity": 0,
+          "tipsAndFeedback": {
+            "tip": ""
+          },
+          "single": true,
+          "autoAlign": false,
+          "type": {
+            "library": "H5P.DragQuestionDropzone 0.1"
+          },
+          "label": "<div>baby image</div>\n"
+        },
+        {
+          "x": 25.625,
+          "y": 62.5,
+          "width": 8.75,
+          "height": 8.75,
+          "correctElements": [
+            "1"
+          ],
+          "showLabel": false,
+          "backgroundOpacity": 0,
+          "tipsAndFeedback": {
+            "tip": ""
+          },
+          "single": true,
+          "autoAlign": false,
+          "type": {
+            "library": "H5P.DragQuestionDropzone 0.1"
+          },
+          "label": "<div>man image</div>\n"
+        },
+        {
+          "x": 45.625,
+          "y": 62.5,
+          "width": 8.75,
+          "height": 8.75,
+          "correctElements": [
+            "4"
+          ],
+          "showLabel": false,
+          "backgroundOpacity": 0,
+          "tipsAndFeedback": {
+            "tip": ""
+          },
+          "single": true,
+          "autoAlign": false,
+          "type": {
+            "library": "H5P.DragQuestionDropzone 0.1"
+          },
+          "label": "<div>woman image</div>\n"
+        },
+        {
+          "x": 65.625,
+          "y": 62.5,
+          "width": 8.75,
+          "height": 8.75,
+          "correctElements": [
+            "3"
+          ],
+          "showLabel": false,
+          "backgroundOpacity": 0,
+          "tipsAndFeedback": {
+            "tip": ""
+          },
+          "single": true,
+          "autoAlign": false,
+          "type": {
+            "library": "H5P.DragQuestionDropzone 0.1"
+          },
+          "label": "<div>teenage girl image</div>\n"
+        },
+        {
+          "x": 85.625,
+          "y": 62.5,
+          "width": 8.75,
+          "height": 8.75,
+          "correctElements": [
+            "0"
+          ],
+          "showLabel": false,
+          "backgroundOpacity": 0,
+          "tipsAndFeedback": {
+            "tip": ""
+          },
+          "single": true,
+          "autoAlign": false,
+          "type": {
+            "library": "H5P.DragQuestionDropzone 0.1"
+          },
+          "label": "<div>teenage boy image</div>\n"
+        }
+      ]
+    }
+  },
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 100
+    }
+  ],
+  "behaviour": {
+    "enableRetry": true,
+    "enableCheckButton": true,
+    "singlePoint": false,
+    "applyPenalties": true,
+    "enableScoreExplanation": true,
+    "dropZoneHighlighting": "dragging",
+    "autoAlignSpacing": 2,
+    "enableFullScreen": false,
+    "showScorePoints": true,
+    "showTitle": true
+  }
+}
