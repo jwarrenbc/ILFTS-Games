@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lekwungen Vocabulary Matching Game</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- SortableJS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.2/Sortable.min.js"></script>
+</head>
+<body>
+  <div class="app-container">
+    <header class="game-header">
+      <h1 id="lesson-title">ʔəɬtélŋəxʷ - People</h1>
+      <p class="instruction">Drag each word from the bank and drop it onto its matching picture.</p>
+      <div class="controls-bar">
+        <button id="reset-btn" class="btn secondary-btn" type="button">Reset Game</button>
+        <span id="score-counter" class="score-display">Matched: 0 / 0</span>
+      </div>
+    </header>
+
+    <main class="game-board">
+      <section class="word-pool-section">
+        <h2>Word Bank</h2>
+        <div id="word-pool" class="word-pool" aria-label="Word Bank Dropzone">
+          <!-- Draggable word chips will be rendered dynamically -->
+        </div>
+      </section>
+
+      <section class="targets-section">
+        <h2>Pictures</h2>
+        <div id="targets-grid" class="targets-grid">
+          <!-- Target picture cards will be rendered dynamically -->
+        </div>
+      </section>
+    </main>
+
+    <div id="win-banner" class="win-banner hidden" role="alert">
+      <div class="win-content">
+        <h2>🎉 Congratulations! You matched all the words! 🎉</h2>
+        <button id="play-again-btn" class="btn primary-btn" type="button">Play Again</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
