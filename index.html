@@ -10,18 +10,91 @@
 </head>
 <body>
   <div class="app-container">
+    <!-- Lesson API & Token Configuration Panel -->
+    <section class="config-card" id="config-panel">
+      <div class="config-header">
+        <div class="config-title-group">
+          <h2>Lesson API Configuration</h2>
+          <span class="config-subtitle">Connect to an ILFTS lesson endpoint using your authorization token</span>
+        </div>
+        <button id="toggle-config-btn" class="btn secondary-btn small-btn" type="button" aria-expanded="true" aria-controls="config-body">
+          <span id="toggle-config-icon">▲</span> <span id="toggle-config-label">Collapse</span>
+        </button>
+      </div>
+
+      <div id="config-body" class="config-body">
+        <form id="config-form" class="config-form">
+          <div class="form-grid">
+            <div class="form-field flex-url">
+              <label for="endpoint-url">Lesson Endpoint URL:</label>
+              <div class="input-with-presets">
+                <input 
+                  type="text" 
+                  id="endpoint-url" 
+                  class="form-input" 
+                  placeholder="https://ilfts.org/l1dev/api/ləkwəŋən/lesson/2/" 
+                  required
+                  spellcheck="false"
+                >
+                <select id="preset-selector" class="preset-select" aria-label="Select Quick Preset">
+                  <option value="">Quick Presets...</option>
+                  <option value="https://ilfts.org/l1dev/api/ləkwəŋən/lesson/2/">Lesson 2: ʔəɬtélŋəxʷ - People</option>
+                  <option value="https://ilfts.org/l1dev/api/ləkwəŋən/lesson/3/">Lesson 3: ʔəw̓ sx̣ʷəníiŋ̓ šxʷ ʔal̓ - How are you?</option>
+                  <option value="https://ilfts.org/l1dev/api/ləkwəŋən/lesson/4/">Lesson 4: Sx̣ʷəníiŋ̓ ʔacə kʷə seqəɬ - Weather</option>
+                  <option value="data/lesson2_data.json">Local Mock (Lesson 2)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-field flex-token">
+              <label for="auth-token">Authorization Token:</label>
+              <div class="token-input-group">
+                <input 
+                  type="password" 
+                  id="auth-token" 
+                  class="form-input" 
+                  placeholder="Token d3d6b1018f3ce5..." 
+                  spellcheck="false"
+                >
+                <button type="button" id="toggle-token-btn" class="btn icon-btn" title="Show / Hide Token" aria-label="Toggle token visibility">
+                  👁️
+                </button>
+              </div>
+            </div>
+
+            <div class="form-field flex-actions">
+              <button type="submit" id="load-btn" class="btn primary-btn load-btn">
+                <span id="load-spinner" class="spinner hidden" aria-hidden="true">⏳</span>
+                <span id="load-btn-text">Load Lesson</span>
+              </button>
+            </div>
+          </div>
+        </form>
+
+        <div id="status-banner" class="status-banner hidden" role="status"></div>
+      </div>
+    </section>
+
+    <!-- Game Header -->
     <header class="game-header">
-      <h1 id="lesson-title">ʔəɬtélŋəxʷ - People</h1>
-      <p class="instruction">Drag each word from the bank and drop it onto its matching picture.</p>
+      <div class="header-main">
+        <h1 id="lesson-title">ʔəɬtélŋəxʷ - People</h1>
+        <p class="instruction">Drag each word from the bank and drop it onto its matching picture.</p>
+      </div>
       <div class="controls-bar">
         <button id="reset-btn" class="btn secondary-btn" type="button">Reset Game</button>
         <span id="score-counter" class="score-display">Matched: 0 / 0</span>
+        <button id="change-lesson-btn" class="btn secondary-btn hidden" type="button">⚙️ Change Lesson</button>
       </div>
     </header>
 
+    <!-- Game Board -->
     <main class="game-board">
       <section class="word-pool-section">
-        <h2>Word Bank</h2>
+        <div class="word-pool-header">
+          <h2>Word Bank</h2>
+          <span id="pool-count" class="badge"></span>
+        </div>
         <div id="word-pool" class="word-pool" aria-label="Word Bank Dropzone">
           <!-- Draggable word chips will be rendered dynamically -->
         </div>
@@ -35,6 +108,7 @@
       </section>
     </main>
 
+    <!-- Win Banner -->
     <div id="win-banner" class="win-banner hidden" role="alert">
       <div class="win-content">
         <h2>🎉 Congratulations! You matched all the words! 🎉</h2>

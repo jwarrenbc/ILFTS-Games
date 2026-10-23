@@ -1,41 +1,139 @@
 {
-  "lesson_number": 2,
-  "lesson_title": "ʔəɬtélŋəxʷ - People",
+  "number": 2,
+  "title": "ʔəɬtélŋəxʷ - People",
   "vocab": [
     {
-      "id": "v1",
-      "lekwungen": "qeq",
-      "english": "baby",
-      "image_url": "https://ilfts.org/media/images/vocab/image117.jpg",
-      "audio_url": "https://ilfts.org/media/audio/vocab/baby.mp3"
+      "id": 1497,
+      "ind": "qeq",
+      "eng": "baby",
+      "recording": "https://ilfts.org/media/audio/vocab/baby.mp3",
+      "image": "https://ilfts.org/media/images/vocab/image117.jpg"
     },
     {
-      "id": "v2",
-      "lekwungen": "swə́y̓qeʔ",
-      "english": "man",
-      "image_url": "https://ilfts.org/media/images/vocab/image131.jpg",
-      "audio_url": "https://ilfts.org/media/audio/vocab/baby.mp3"
+      "id": 1498,
+      "ind": "swə́y̓qeʔ",
+      "eng": "man",
+      "recording": "https://ilfts.org/media/audio/vocab/man.mp3",
+      "image": "https://ilfts.org/media/images/vocab/image131.jpg"
     },
     {
-      "id": "v3",
-      "lekwungen": "swiw̓ləs",
-      "english": "teenage boy",
-      "image_url": "https://ilfts.org/media/images/vocab/image123.jpg",
-      "audio_url": "https://ilfts.org/media/audio/vocab/youth_male.mp3"
+      "id": 1499,
+      "ind": "swə́y̓qeʔaləɬ",
+      "eng": "boy",
+      "recording": "https://ilfts.org/media/audio/vocab/little_boy.mp3",
+      "image": "https://ilfts.org/media/images/vocab/image119.jpg"
     },
     {
-      "id": "v4",
-      "lekwungen": "sɬéniʔ",
-      "english": "woman",
-      "image_url": "https://ilfts.org/media/images/vocab/image133.jpg",
-      "audio_url": "https://ilfts.org/media/audio/vocab/woman.mp3"
+      "id": 1500,
+      "ind": "swiw̓ləs",
+      "eng": "young man",
+      "recording": "https://ilfts.org/media/audio/vocab/youth_male.mp3",
+      "image": "https://ilfts.org/media/images/vocab/image123.jpg"
     },
     {
-      "id": "v5",
-      "lekwungen": "q̓eʔŋiʔ",
-      "english": "teenage girl",
-      "image_url": "https://ilfts.org/media/images/vocab/image127.jpg",
-      "audio_url": "https://ilfts.org/media/audio/vocab/little_girl.mp3"
+      "id": 1501,
+      "ind": "sɬéniʔ",
+      "eng": "woman",
+      "recording": "https://ilfts.org/media/audio/vocab/woman.mp3",
+      "image": "https://ilfts.org/media/images/vocab/image133.jpg"
+    },
+    {
+      "id": 1502,
+      "ind": "sɬənəčáləɬ",
+      "eng": "girl",
+      "recording": "https://ilfts.org/media/audio/vocab/little_girl.mp3",
+      "image": "https://ilfts.org/media/images/vocab/image129.jpg"
+    },
+    {
+      "id": 1503,
+      "ind": "q̓eʔŋiʔ",
+      "eng": "girl (teenage), young lady",
+      "recording": null,
+      "image": "https://ilfts.org/media/images/vocab/image127.jpg"
+    },
+    {
+      "id": 1504,
+      "ind": "q̓éʔŋiʔal̓əɬ",
+      "eng": "young girl",
+      "recording": "https://ilfts.org/media/audio/vocab/youth_female.mp3",
+      "image": "https://ilfts.org/media/images/vocab/image129_oyS1XDz.jpg"
+    },
+    {
+      "id": 1505,
+      "ind": "sƛ̓iƛ̓qəɬ",
+      "eng": "child",
+      "recording": "https://ilfts.org/media/audio/vocab/child.mp3",
+      "image": "https://ilfts.org/media/images/vocab/image125.jpg"
+    },
+    {
+      "id": 1506,
+      "ind": "sƛ̓əliƛ̓qəɬ",
+      "eng": "children",
+      "recording": null,
+      "image": "https://ilfts.org/media/images/vocab/image125_ICVKOoN.jpg"
+    },
+    {
+      "id": 1507,
+      "ind": "sƛ̓iƛ̓əlqəɬ",
+      "eng": "children 2",
+      "recording": null,
+      "image": "https://ilfts.org/media/images/vocab/image125_SNdpb1J.jpg"
+    },
+    {
+      "id": 1508,
+      "ind": "ʔəxʷílŋəxʷ",
+      "eng": "First Nations person",
+      "recording": "https://ilfts.org/media/audio/vocab/FN_person.mp3",
+      "image": "https://ilfts.org/media/images/vocab/image135.jpg"
+    },
+    {
+      "id": 1509,
+      "ind": "sil̓əʔ",
+      "eng": "grandparent",
+      "recording": null,
+      "image": null
+    },
+    {
+      "id": 1510,
+      "ind": "swə́y̓qeʔ sil̓əʔ",
+      "eng": "grandfather",
+      "recording": "https://ilfts.org/media/audio/vocab/grandfather.mp3",
+      "image": "https://ilfts.org/media/images/vocab/image139.jpg"
+    },
+    {
+      "id": 1511,
+      "ind": "sɬéniʔ sil̓əʔ",
+      "eng": "grandmother",
+      "recording": "https://ilfts.org/media/audio/vocab/grandmother.mp3",
+      "image": "https://ilfts.org/media/images/vocab/image141.jpg"
+    },
+    {
+      "id": 1512,
+      "ind": "sʔeləxʷ",
+      "eng": "elder",
+      "recording": null,
+      "image": null
+    },
+    {
+      "id": 1513,
+      "ind": "swə́y̓qeʔ sʔeləxʷ",
+      "eng": "male elder",
+      "recording": "https://ilfts.org/media/audio/vocab/elder_man.mp3",
+      "image": "https://ilfts.org/media/images/vocab/image139_Uu11QLb.jpg"
+    },
+    {
+      "id": 1514,
+      "ind": "sɬéniʔ sʔeləxʷ",
+      "eng": "female elder",
+      "recording": "https://ilfts.org/media/audio/vocab/elder_lady.mp3",
+      "image": "https://ilfts.org/media/images/vocab/image141_fW9g29Z.jpg"
+    },
+    {
+      "id": 1515,
+      "ind": "aa čən̓eʔ",
+      "eng": "oh my gosh",
+      "recording": null,
+      "image": null
     }
   ]
 }
